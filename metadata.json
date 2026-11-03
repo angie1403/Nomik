@@ -1,0 +1,6 @@
+{
+  "name": "Nómina Decenal - Impresos El Día S.A.S.",
+  "description": "Plataforma interna y automatizada de liquidación y pago decenal de nómina bajo legislación laboral colombiana para Talento Humano y Contabilidad.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

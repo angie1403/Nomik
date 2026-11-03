@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background with rounded corners for maskable padding -->
+  <rect width="512" height="512" rx="100" fill="url(#bgGrad)" />
+
+  <!-- Cyan accent ring -->
+  <rect x="24" y="24" width="464" height="464" rx="80" fill="none" stroke="#06b6d4" stroke-width="6" stroke-opacity="0.3" />
+
+  <!-- Graphic arts registration marks (CMYK lines) -->
+  <line x1="256" y1="36" x2="256" y2="70" stroke="#06b6d4" stroke-width="4" stroke-linecap="round" />
+  <line x1="256" y1="442" x2="256" y2="476" stroke="#06b6d4" stroke-width="4" stroke-linecap="round" />
+  <line x1="36" y1="256" x2="70" y2="256" stroke="#06b6d4" stroke-width="4" stroke-linecap="round" />
+  <line x1="442" y1="256" x2="476" y2="256" stroke="#06b6d4" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Center Corporate ID Mark -->
+  <g transform="translate(106, 120)">
+    <!-- Letter I -->
+    <rect x="30" y="40" width="56" height="200" rx="14" fill="url(#brandGrad)" />
+    <!-- Letter D -->
+    <path d="M 120 40 L 200 40 C 265 40 310 85 310 140 C 310 195 265 240 200 240 L 120 240 Z M 176 96 L 176 184 L 198 184 C 230 184 252 166 252 140 C 252 114 230 96 198 96 Z" fill="url(#brandGrad)" />
+  </g>
+
+  <!-- Subtitle Bar -->
+  <rect x="110" y="380" width="292" height="34" rx="10" fill="url(#accentGrad)" />
+  <text x="256" y="403" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="900" fill="#0f172a" text-anchor="middle" letter-spacing="3">IMPRESOS EL DÍA</text>
+</svg>
